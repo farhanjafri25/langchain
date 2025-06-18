@@ -1,0 +1,26 @@
+{
+  "name": "langchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farhanjafri25/langchain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farhanjafri25/langchain/issues"
+  },
+  "homepage": "https://github.com/farhanjafri25/langchain#readme",
+  "description": "",
+  "dependencies": {
+    "@langchain/core": "^0.3.59",
+    "@langchain/groq": "^0.2.3",
+    "langchain": "^0.3.28"
+  }
+}
