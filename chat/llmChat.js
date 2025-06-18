@@ -30,3 +30,4 @@ console.log(promptValue.toChatMessages());
 const response = await model.invoke(promptValue.toChatMessages());
 console.log(response.text);
 
+
