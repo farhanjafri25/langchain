@@ -1,0 +1,9 @@
+import { ChatGroq } from "@langchain/groq";
+
+const model = new ChatGroq({
+    model: 'llama-3.3-70b-versatile',
+    temperature: 0,
+    apiKey: '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'
+})
+
+export { model }
