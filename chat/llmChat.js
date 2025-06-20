@@ -1,5 +1,5 @@
 import { HumanMessage, SystemMessage } from "@langchain/core/messages";
-import { model } from "./groqConfig.js";
+import { model } from "../config/groqConfig.js";
 import { ChatPromptTemplate } from "@langchain/core/prompts";
 
 const messages = [
